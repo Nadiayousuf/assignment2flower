@@ -74,6 +74,9 @@ ol, ul, li{
 #banner .banner_p span{
     color: #E95A08;
 }
+.banner_content img{
+    width: 100%;
+}
 /* banner section ends */
 
 /* flower vase section start  */
@@ -300,12 +303,4 @@ ol, ul, li{
 
 /* reponsive section start  */
 
-@media (max-width: 768px) {
-  .nav_menu ul li a {
-    flex-direction: row;
-    position: right;
-  }  
-  .logo {
-    position: left;
-  }
-}
+ 
