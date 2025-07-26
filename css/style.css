@@ -34,6 +34,7 @@ ol, ul, li{
     color: rgba(0, 0, 0, 0.5);
 
 }
+
         /* common css ends  */
 
  /* nav section start  */
@@ -45,6 +46,13 @@ ol, ul, li{
 .nav_menu ul li{
     padding: 48px;
 
+}
+.nav_menu ul li a{
+    color: #6B7280;
+}
+.nav_menu ul li a:hover{
+    color: #000000;
+    font-weight: 700;
 }
 
 /* nav section ends */
@@ -79,20 +87,225 @@ ol, ul, li{
 #flower .plant_content h3 {
     font-size: 50px;
     color: #000000;
+    margin-bottom: 16px;
 }
 #flower .plant_content span{
     color: #E95A08;
 }
+#flower .plant_content p {
+    margin-bottom: 49px;
+}
 #flower .flower_card_content {
     text-align: center;
 }
-#flower .flower_card_content p {
+#flower .flower_card_content h6 {
     font-family: "Inter", sans-serif;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
+    color: #111111;
+}
+#flower .flower_card_content p{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
     color: #111111;
 }
 
-
+#flower .flower_card_content button{
+    background-color: #E95A08;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 19px 80px;
+}
+#flower .flower_vase {
+    gap:20px 30px ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
 
 /* flower vase section ends */
+
+/* seller section start  */
+
+#seller .seller_content{
+    display: flex;
+   gap: 60px;
+}
+#seller .seller_info h4{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+    padding-top: 38px;
+}
+#seller .seller_info ul li {
+    list-style-type: disc;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+#seller .seller_img{
+    position: relative;
+}
+#seller .badge{
+    position: absolute;
+    top: 0;
+    right:0;
+    transform: translate(35% ,-40%);
+    }
+
+/* seller section ends */
+
+/* deals section start  */
+
+#deals {
+    padding: 133px 0;
+}
+#deals .deals_content {
+    text-align: center;
+}
+#deals .deals_content h3 {
+    font-size: 50px;
+    color: #000000;
+}
+#deals .deals_content span{
+    color: #E95A08;
+}
+
+#deals .tulip_1{
+    gap: 20px;
+    justify-content: space-between;
+}
+#deals .deals_content p {
+    margin-bottom: 120px;
+}
+#deals .tulip_card img{
+    position: relative;
+    border-radius: 5%;
+    
+}
+#deals .flower_field img{
+    position: relative;
+    border-radius: 5%;
+    
+}
+#deals .tulip_card{
+    position: relative;
+    margin-bottom: 25px;
+}
+#deals .flower_field {
+    position: relative;
+}
+#deals .overlay {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(50%);
+  
+
+}
+
+#deals .overlay h6{
+    font-family:"Noto Sans", sans-serif ;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+#deals .overlay a{
+    font-family:"Inter", sans-serif ;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+/* deals section ends */
+
+/* flower section start  */
+
+#flower_form .form_image img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+#flower_form .flower_fm{
+    position: relative;
+    
+}
+#flower_form .form_heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%);
+}
+#flower_form .form_heading h2{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+#flower_form .form_heading a{
+    background-color: #E95A08;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 19px 70px;
+    border: none;
+
+}
+#flower_form .form_heading input {
+    background-color:#FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 100px;
+    border: none;
+}
+
+
+/* flower section ends */
+
+/* footer section start  */
+
+#footer {
+    padding: 50px 0;
+}
+#footer .footer_content{
+    gap:110px;
+}
+#footer .logo_img p{
+    margin-bottom: 16px;
+}
+
+#footer .footer_menu ul li{
+        margin-bottom: 26px;
+    }
+#footer .footer_menu ul li a{
+    color: #6B7280;
+    
+}
+#footer .social_media_icon{
+    gap: 25px;
+   
+}
+/* footer section ends */
+
+/* reponsive section start  */
+
+@media (max-width: 768px) {
+  .nav_menu ul li a {
+    flex-direction: row;
+    position: right;
+  }  
+  .logo {
+    position: left;
+  }
+}
