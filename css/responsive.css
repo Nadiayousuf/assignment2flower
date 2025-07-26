@@ -5,14 +5,16 @@
         flex-direction: column;
         text-align: center;
     }
-    
+    .logo img{
+        padding-right: 100%;
+    }
     
     .list{
         display: none;
     }
     .cart{
         flex-direction: row;
-        margin-bottom: 10px;
+        
         
     }
     .banner_content {
@@ -25,8 +27,17 @@
 
         align-items: center;
     }
-    .flower_vasem .flower_card{
-        grid-template-columns: repeat(1fr);
+    .plant_content{
+       
+       grid-template-columns: 1fr;
     }
+    .seller_content{
+        flex-direction: column;
     }
+    .flower_form img{
+        width: 100%
+    }
+     
+    }
+    
 
