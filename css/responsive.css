@@ -6,7 +6,7 @@
         text-align: center;
     }
     .logo img{
-        padding-right: 100%;
+        padding-right: 80%;
     }
     
     .list{
@@ -14,6 +14,7 @@
     }
     .cart{
         flex-direction: row;
+        transform: translate(50% ,-50%);
         
         
     }
@@ -23,19 +24,49 @@
         align-items: center;
     }
     .banner_img{
-        flex-direction: column;
-
+        justify-content: center;
         align-items: center;
+        width: 100%;
     }
-    .plant_content{
-       
-       grid-template-columns: 1fr;
+    .flower_vase{
+       grid-template-columns: repeat(2,2fr);
+      
     }
     .seller_content{
         flex-direction: column;
     }
-    
-     
+    .seller_img  {
+        position: relative;
+        
     }
+    .badge{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-10%,-10%);
+    justify-content: center;
+    }
+    
+    .flower_image{
+    position: relative; 
+        
+}
+.form_heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(-30% , 50%);
+    
+}
+.logo_img {
+    padding-top: 30px;
+}
+    
+    }
+     
+    
     
 

@@ -75,7 +75,7 @@ ol, ul, li{
     color: #E95A08;
 }
 .banner_content img{
-    width: 100%;
+    width: 100;
 }
 /* banner section ends */
 
@@ -154,6 +154,8 @@ ol, ul, li{
 }
 #seller .seller_img{
     position: relative;
+    
+     
 }
 #seller .badge{
     position: absolute;
